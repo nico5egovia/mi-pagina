@@ -1,0 +1,69 @@
+body {
+    background-color: black;
+    background-image: url(https://i.gifer.com/2ii9.gif);
+}
+
+.titulo-principal {
+    color: beige;
+    text-align: center;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar {
+    color: beige;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: rgb(139, 139, 126);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.navbar ul{
+    text-align: center;
+    margin: auto;
+    list-style-type: none;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.navbar ul li a{
+    color: beige;
+    display: block;
+    padding: 10px;
+    margin: auto;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover{
+    background-color: burlywood;
+}
+
+.parrafo{
+    color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.consulta{
+    width: 50%;
+    height: 250px;
+    border: dotted beige;
+    text-align: center;
+    margin: auto;
+}
+
+.input{
+    margin: 20px;
+    display: block;
+    padding: 5px;
+}
+
+.imagenes{
+    display: inline-block;
+    margin: 10px;
+    width: 20%;
+}
