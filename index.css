@@ -46,22 +46,24 @@ body {
     text-align: center;
 }
 
-.consulta{
-    width: 50%;
-    height: 250px;
-    border: dotted beige;
-    text-align: center;
-    margin: auto;
-}
-
-.input{
-    margin: 20px;
-    display: block;
-    padding: 5px;
-}
-
 .imagenes{
     display: inline-block;
     margin: 10px;
     width: 20%;
+}
+
+.seccion-mensaje{
+    text-align: center;
+}
+
+.cuadro-mensaje{
+    border: dotted beige 3px;
+    display: inline-block;
+    padding: 2%;
+    text-align: center;
+}
+
+.input{
+    display: flex;
+    margin: 2%;
 }
