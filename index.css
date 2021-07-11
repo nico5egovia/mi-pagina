@@ -1,69 +1,67 @@
-body {
-    background-color: black;
-    background-image: url(https://i.gifer.com/2ii9.gif);
+*{
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    background-image: url(/img/2ii9.gif);
+    background-color: rgb(105, 103, 103);
 }
 
-.titulo-principal {
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ul-nav{
     color: beige;
-    text-align: center;
-    margin: auto;
-    font-family: 'Courier New', Courier, monospace;
+    width: 25%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
 }
 
-.navbar {
-    color: beige;
-    background-color: rgb(139, 139, 126);
-    font-family: 'Courier New', Courier, monospace;
-
-}
-
-.navbar ul{
-    text-align: center;
-    margin: auto;
-    list-style-type: none;
-}
-
-.navbar ul li{
-    display: inline-block;
-    padding: 10px 20px;
-}
-
-.navbar ul li a{
-    color: beige;
-    display: block;
-    padding: 10px;
-    margin: auto;
+.ul-nav a{
+    color: inherit;
     text-decoration: none;
 }
 
-.navbar ul li a:hover{
-    background-color: burlywood;
+.ul-nav a:hover{
+    color: lawngreen;
 }
 
-.parrafo{
+.cuerpo-principal{
     color: beige;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    font-size: 35px;
 }
 
 .imagenes{
-    display: inline-block;
-    margin: 10px;
-    width: 20%;
-}
-
-.seccion-mensaje{
-    text-align: center;
-}
-
-.cuadro-mensaje{
-    border: dotted beige 3px;
-    display: inline-block;
-    padding: 2%;
-    text-align: center;
-}
-
-.input{
     display: flex;
-    margin: 2%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 15%;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario input{
+    margin: 5px;
+}
+.formulario textarea{
+    margin: 5px;
+}
+
+.parrafo-index{
+    color: beige;
+    font-size: 20px;
+    text-align: center;
 }
