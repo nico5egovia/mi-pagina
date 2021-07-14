@@ -3,8 +3,9 @@
     font-family: 'Oswald', sans-serif;
 }
 body{
-    background-image: url(/img/2ii9.gif);
+    background-image: url(https://media.giphy.com/media/bAmpRgACntwA0/giphy.gif);
     background-color: rgb(105, 103, 103);
+    background-size: cover;
 }
 
 .navbar{
@@ -15,11 +16,15 @@ body{
 
 .ul-nav{
     color: beige;
-    width: 25%;
+    width: 50%;
     list-style: none;
     display: flex;
     justify-content: space-between;
     font-size: 25px;
+}
+
+.ul-nav li{
+    margin: 15px;
 }
 
 .ul-nav a{
@@ -37,14 +42,8 @@ body{
     font-size: 35px;
 }
 
-.imagenes{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-img{
-    width: 15%;
+.dancer{
+    width: 15%;;
 }
 
 .formulario{
@@ -64,4 +63,78 @@ img{
     color: beige;
     font-size: 20px;
     text-align: center;
+}
+
+.about-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: beige;
+}
+
+.about-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2%;
+    color: beige;
+}
+
+.about-2 img{
+    width: 100px;
+}
+
+.about-2 h2{
+    text-align: center;
+}
+
+.servicio-1{
+    text-align: center;
+}
+
+.servicio-2{
+    text-align: center;
+}
+
+.servicio-3{
+    text-align: center;
+}
+
+.login{
+   width: 100%;
+   height: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.cuadro-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuadro-login img{
+    width: 15%;
+}
+
+.cuadro-login a{
+    text-decoration: none;
+    color: beige;
+}
+
+.cuadro-login input{
+    width: 35%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.cuadro-login button{
+    margin: 5px;
+}
+
+.cuadro-login a{
+    margin: 5px;
 }
